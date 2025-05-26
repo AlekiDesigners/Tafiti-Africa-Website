@@ -15,7 +15,7 @@
         }
         
         .gradient-bg {
-            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%);
+            background: linear-gradient(135deg, #6552D0 0%, #17203D 50%, #3b82f6 100%);
         }
         
         .service-card:hover {
@@ -92,12 +92,7 @@
                         We empower businesses across Africa with cutting-edge data analytics and technology solutions to drive growth and innovation.
                     </p>
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="#contact" class="bg-white text-blue-800 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold text-lg text-center transition duration-300">
-                            Get Started
-                        </a>
-                        <a href="#services" class="border-2 border-white text-white hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold text-lg text-center transition duration-300">
-                            Our Services
-                        </a>
+                                             
                     </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
@@ -698,7 +693,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div>
-                    <h3 class="text-2xl font-bold mb-6">Tafiti<span class="text-blue-400">.africa</span></h3>
+                    <h3 class="text-2xl font-bold mb-6">Tafiti<span class="text-blue-400"> Africa</span></h3>
                     <p class="text-blue-200 mb-6">
                         Empowering African businesses through innovative data analytics and technology solutions.
                     </p>
@@ -753,7 +748,7 @@
             
             <div class="pt-8 border-t border-blue-800 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-blue-300 mb-4 md:mb-0">
-                    &copy; 2023 Tafiti Africa. All rights reserved.
+                    &copy; 2025 Tafiti Africa. All rights reserved.
                 </p>
                 <div class="flex space-x-6">
                     <a href="#" class="text-blue-300 hover:text-white">Privacy Policy</a>
@@ -806,4 +801,4 @@
         });
     </script>
 </body>
-</html>
+</html>b
