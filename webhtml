@@ -49,7 +49,7 @@
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center">
                     <a href="#" class="flex items-center">
-                        <span class="text-2xl font-bold text-blue-800">Tafiti<span class="text-blue-500">.africa</span></span>
+                        <span class="text-2xl font-bold text-blue-800">Tafiti<span class="text-blue-500"> Africa</span></span>
                     </a>
                 </div>
                 <div class="hidden md:flex space-x-8">
@@ -154,7 +154,7 @@
                     <div class="text-blue-600 mb-6">
                         <i class="fas fa-database text-5xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4">Data Analytics</h3>
+                    <h3 class="text-xl font-bold text-blue-800 mb-4">Data Analytics and Data Entry</h3>
                     <p class="text-gray-600 mb-6">
                         Transform raw data into actionable insights with our advanced analytics solutions tailored for African businesses.
                     </p>
@@ -167,6 +167,9 @@
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check-circle text-green-500 mr-2"></i> Data Visualization
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i> Data Entry and Cleaning
                         </li>
                     </ul>
                 </div>
@@ -516,7 +519,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-800 mb-1">Email Us</h4>
-                                <p class="text-gray-600">hello@tafiti.africa</p>
+                                <p class="text-gray-600">info@tafiti.africa</p>
                             </div>
                         </div>
                         
@@ -573,12 +576,14 @@
                                 <label for="service" class="block text-gray-700 font-medium mb-2">Service Interested In</label>
                                 <select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition duration-300">
                                     <option value="">Select a service</option>
-                                    <option value="analytics">Data Analytics</option>
+                                    <option value="analytics">Data Analytics and Data Entry</option>
                                     <option value="ai">AI & Machine Learning</option>
                                     <option value="cloud">Cloud Solutions</option>
                                     <option value="development">Mobile & Web Development</option>
                                     <option value="security">Cybersecurity</option>
                                     <option value="transformation">Digital Transformation</option>
+                                    <option value="other">Other Services</option>
+                                    
                                 </select>
                             </div>
                             
