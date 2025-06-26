@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our data analytics, AI, and cloud solutions tailored for African businesses">
+    <title>Our Services | Tafiti Africa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation (Same structure as about.html with "Services" highlighted) -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <span class="text-2xl font-bold text-blue-800">Tafiti<span class="text-blue-500"> Africa</span></span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 font-medium">Home</a>
+                    <a href="services.html" class="text-blue-600 px-3 py-2 font-medium" aria-current="page">Services</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 font-medium">About</a>
+                    <a href="mission.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 font-medium">Mission</a>
+                    <a href="projects.html" class="text-gray-700 hover:text-blue-600 px-3 py-2 font-medium">Projects</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-gray-700 focus:outline-none" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Home</a>
+                <a href="services.html" class="block px-3 py-2 text-base font-medium text-blue-600" aria-current="page">Services</a>
+                <a href="about.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">About</a>
+                <a href="mission.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Mission</a>
+                <a href="projects.html" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Content -->
+    <main class="pt-32">
+        <section id="services" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h1 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Our Services</h1>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        We offer comprehensive data analytics and technology solutions tailored for the African market.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-database text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">Data Analytics and Data Entry</h2>
+                        <p class="text-gray-600 mb-6">
+                            Transform raw data into actionable insights with our advanced analytics solutions tailored for African businesses.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Predictive Analytics
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Business Intelligence
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Data Visualization
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Data Entry and Cleaning
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-robot text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">AI & Machine Learning</h2>
+                        <p class="text-gray-600 mb-6">
+                            Leverage artificial intelligence to automate processes, enhance decision-making, and gain competitive advantage.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Custom AI Solutions
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Natural Language Processing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Computer Vision
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-cloud text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">Cloud Solutions</h2>
+                        <p class="text-gray-600 mb-6">
+                            Scalable and secure cloud infrastructure designed for African businesses to optimize operations and reduce costs.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Cloud Migration
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Hybrid Cloud Solutions
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Cloud Security
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-mobile-alt text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">Mobile & Web Development</h2>
+                        <p class="text-gray-600 mb-6">
+                            Custom mobile and web applications built for the African market with local context and global standards.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Cross-platform Apps
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Progressive Web Apps
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> UI/UX Design
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 5 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-shield-alt text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">Cybersecurity</h2>
+                        <p class="text-gray-600 mb-6">
+                            Comprehensive security solutions to protect your digital assets in an increasingly connected Africa.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Risk Assessment
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Penetration Testing
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Security Training
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Service 6 -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md transition duration-300">
+                        <div class="text-blue-600 mb-6">
+                            <i class="fas fa-lightbulb text-5xl" aria-hidden="true"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-blue-800 mb-4">Digital Transformation</h2>
+                        <p class="text-gray-600 mb-6">
+                            End-to-end digital transformation services to future-proof your business in the African digital economy.
+                        </p>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Process Automation
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Digital Strategy
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2" aria-hidden="true"></i> Change Management
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Process -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Our Process</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        How we deliver exceptional results for our clients
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <!-- Step 1 -->
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-blue-800 text-2xl font-bold">1</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800 mb-2">Discovery</h3>
+                        <p class="text-gray-600">
+                            We analyze your business needs and data infrastructure
+                        </p>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-blue-800 text-2xl font-bold">2</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800 mb-2">Solution Design</h3>
+                        <p class="text-gray-600">
+                            Custom architecture tailored for your African context
+                        </p>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-blue-800 text-2xl font-bold">3</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800 mb-2">Implementation</h3
